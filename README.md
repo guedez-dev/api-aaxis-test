@@ -21,6 +21,7 @@ System Requirements:
 3. Copy Environment File:
 
 `` cp .env.dist .env``
+
 4. Configure Database Connection:
 
 Update the .env file with your database connection details. Refer to the provided example in the file.
@@ -54,7 +55,8 @@ Perform API authentication using cURL:\
 
 ``curl -X POST -H "Content-Type: application/json" http://127.0.0.1:8000/api/login_check -d '{"username":"admin@info.com","password":"admin_123"}'
 ``
-If the provided JSON information is correct, you will receive a token in the response. Use this token in subsequent resource requests.
+
+ If the provided JSON information is correct, you will receive a token in the response. Use this token in subsequent resource requests.
 
 2. **Get List of Products**
 
